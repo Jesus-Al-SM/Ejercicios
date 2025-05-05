@@ -1,0 +1,80 @@
+* {
+    /* Resetear estilos que vienen por defecto del navegador */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Incluir el padding y el borde dentro del ancho y alto del elemento */
+}
+
+/* Fuente de encabezado del documento */
+.cagliostro-regular {
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    background-image: linear-gradient(to right bottom, #94bdf9, #42d3ff, #00e6f3, #2ef3c5, #9cf88a);
+    font-family: "Cagliostro", sans-serif;
+}
+h1 {
+    font-family: "Cagliostro", sans-serif;
+    /* Nombre de la fuente personalizada */
+    text-align: center;
+    /* Se alinea al centro el encabezado principal */
+}
+
+.div-cen{
+    text-align: center;
+    padding: 1em 2em;
+    border: 2px dashed black;
+    text-spacing-trim: auto;
+    margin: 1em 40%;
+}
+
+.listas-medio {
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+}
+
+.tarjeta-general {
+    text-align: center;
+    background-color: #3bc3a8a1;
+    /* Fondo de color rosa */
+    border: 3px solid black;
+    padding: 2em 1em;
+    /* Espacio interno entre el contenido y el borde */
+    margin: 60px auto;
+    /* Separación entre elementos, aplica a los 4 lados T,R,B,L  y centrado horizontal*/
+    max-width: 400px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+
+/* Estilo para la descripción de la banda*/
+.descripcion {
+    font-size: 18px;
+    /* Tamaño de letra*/
+    color: #333;
+    /* Color gris oscuro para dar contraste */
+    line-height: 1.5;
+    /* Altura de línea para mejorar la legibilidad */
+}
+
+.descripcion::first-letter {
+    font-size: 30px;
+    /* Letra inicial más grande */
+    font-weight: bold;
+    /* Letra inicial en negrita */
+    color: #681b98;
+    /* Color morado oscuro para destacar */
+}
+
+.tarjeta-general:hover {
+    background-color: rgba(97, 61, 206, 0.78);
+    /* Cambia el fondo a un tono diferente, del rosa que establecimos en la línea 32 a este morado */
+    transform: scale(1);
+    transition: 0.5s;
+}

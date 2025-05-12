@@ -13,10 +13,6 @@
     font-style: normal;
 }
 
-html{
-    background-image: linear-gradient(to right bottom, #94bdf9, #42d3ff, #00e6f3, #2ef3c5, #9cf88a);
-    font-family: "Cagliostro", sans-serif;
-}
 h1 {
     font-family: "Cagliostro", sans-serif;
     /* Nombre de la fuente personalizada */
@@ -24,10 +20,12 @@ h1 {
     /* Se alinea al centro el encabezado principal */
 }
 
+
 .div-cen{
+    background-color: #FFAF0020;
     text-align: center;
     padding: 1em 2em;
-    border: 2px dashed black;
+    border: 2px black;
     text-spacing-trim: auto;
     margin: 1em 40%;
 }
